@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home | E - Shopify</title>
+    <style>
+        .fa {
+  position:relative;
+  top:-310px;
+  left:930px;
+  font-size: 12px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+    </style>
+<style>
+.rectangle {
+  height: 45px;
+  width: 1280px;
+  background-color: #555;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background: linear-gradient(#141e30, #243b55);
+}
+.btn {
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:140px;
+  left:40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn1{
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:140px;
+  left:120px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn2{
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:140px;
+  left:200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn3{
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:140px;
+  left:280px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn4{
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:75px;
+  left:870px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn5{
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:75px;
+  left:1000px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn6{
+  background-color: white;
+  border: none;
+  position:absolute;
+  top:75px;
+  left:1090px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  top:200px;
+  left:-100px;
+}
+.top1{
+position:absolute;
+top:0px;
+left:50px;
+font-size: 13px;
+}
+.top2{
+position:absolute;
+top:0px;
+left:200px;
+font-size: 13px;
+}
+
+
+/* Solid border */
+hr.solid {
+  border-top: 1px solid ;
+  position:relative;
+  top:-190px;
+}
+
+</style>
+
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="New video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+<div class="rectangle"></div>
+
+<button class="btn">  Home.</button>
+<button class="btn1"> Shop.</button>
+<button class="btn2"> About.</button>
+<button class="btn3"> Contact.</button>
+
+
+<div class ="top1">
+    <p style="color:white"> ✆ +91 8765432123</p>
+</div>
+<div class ="top2">
+    <p style="color:white"> 📧 info@gmail.com</p>
+</div>
+
+<button class="btn4"> 🦸🏻️ Account</button>
+<button class="btn5"> 🛒 Cart</button>
+<button class="btn6"> 🔒 Login</button>
+
+<hr class="solid">
+
+<div class="soc">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</div>
+</body>
+</html>
+
+
